@@ -1384,3 +1384,18 @@ textarea.input-field {
     max-width: 450px;
   }
 }
+
+@media (max-width: 768px) {
+  .hero-banner img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    width: auto; /* Adjust the percentage as needed */
+  }
+  .about-banner img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    width: auto; /* Adjust the percentage as needed */
+  }
+}
